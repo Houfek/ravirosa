@@ -12,6 +12,7 @@ const LatestBlogs: FC = () => {
   return (
     <div className="container">
       <div className="text-center latest-blog-container">
+        <h2 className="with-underline">Latest Blogs</h2>
       </div>
       <ul className="latest-blog">
         {posts.map((p) => (
